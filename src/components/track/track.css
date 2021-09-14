@@ -1,0 +1,39 @@
+.track {
+  padding: 0.2rem;
+}
+
+.track .btn {
+  margin-right: 0.3rem;
+}
+
+.track-header {
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+.car-name {
+  color: rgb(245, 185, 21);
+  text-transform: capitalize;
+}
+
+.track-body {
+  border-bottom: 2px dashed #fff;
+  position: relative;
+  height: 2rem;
+}
+
+.flag {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 65px;
+}
+
+.track-body .car-icon {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 45px;
+}

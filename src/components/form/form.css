@@ -1,0 +1,14 @@
+.garage-form {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.garage-form.disabled input {
+  background-color: rgb(168, 168, 168);
+}
+
+.garage-form.disabled .btn {
+  background-color: rgb(168, 168, 168);
+}
